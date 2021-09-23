@@ -12,6 +12,7 @@
     margin-top: 20px;
     background-color: darkgrey;
     padding: 20px;
+    border-radius: 8px;
 }
 #szervek{
     padding: 10px;
@@ -27,13 +28,41 @@ img{
     width: 95%;
     border-radius: 25px;
 }
+body{
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: stretch;
+}
 #login{
     text-align: right;
     font-size: 140%;
+    padding-top: 15px;
 }
-#loginbutton{
+#login>a{
     color: #808060;
+    padding-top: 10px;
 }
 a:hover{
+    text-decoration: none;
+}
+body>div>div>div>ul{
+    list-style: none;
+}
+body>div>div>div>ul>li{
+    display: inline-block;
+    margin-right: 80px;
+    padding-top: 15px;
+}
+.hbutton{
+    color: #808060;
+    text-transform: capitalize;
+    font-family: 'Courier New';
+    font-weight: bolder;
+    font-size: 150%;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+.hbutton:hover{
+    color: #808080;
     text-decoration: none;
 }
