@@ -1,0 +1,39 @@
+#hotbar{
+    padding: 10px;
+    background-color: #c13434;
+    color: white;
+}
+#info{
+    background-color: #c13434;
+    padding: 30px;
+    text-align: center;
+}
+#cards{
+    margin-top: 20px;
+    background-color: darkgrey;
+    padding: 20px;
+}
+#szervek{
+    padding: 10px;
+
+}
+#kártya{
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+img{
+    margin: auto;
+    height: 85%;
+    width: 95%;
+    border-radius: 25px;
+}
+#login{
+    text-align: right;
+    font-size: 140%;
+}
+#loginbutton{
+    color: #808060;
+}
+a:hover{
+    text-decoration: none;
+}
