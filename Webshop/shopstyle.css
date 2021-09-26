@@ -10,13 +10,13 @@
 }
 #cards{
     margin-top: 20px;
+    margin-bottom: 20px;
     background-color: darkgrey;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 #szervek{
     padding: 10px;
-
 }
 #kártya{
     box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
@@ -65,4 +65,52 @@ body>div>div>div>ul>li{
 .hbutton:hover{
     color: #808080;
     text-decoration: none;
+}
+#loginpanel{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 350px;
+    height: 370px;
+    background-color: darkgrey;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 40px;
+    font-size: 120%;
+    font-family: 'Courier New';
+    font-weight: bolder;
+}
+#regpanel{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 350px;
+    height: 400px;
+    background-color: darkgrey;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 120%;
+    font-family: 'Courier New';
+    font-weight: bolder;
+}
+.textbox{
+    width: 330px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(58, 43, 43, 0.4);
+}
+#rlbutton{
+    margin-top: 20px;
+    margin-left: 106px;
+    margin-bottom: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: lightskyblue;
+}
+#rlbutton:hover{
+    background-color: rgb(76, 126, 190);
+}
+#fiokreg{
+    text-align: center;
 }
