@@ -17,7 +17,7 @@
             <div class="col-md-9">
                 <ul>
                     <li><a class="hbutton" href="">Termékek</a></li>
-                    <li><a class="hbutton" href="">Az emberi test</a></li>
+                    <li><a class="hbutton" href="test.html">Az emberi test</a></li>
                     <li><a class="hbutton" href="">Gomb</a></li>
                     <li><a class="hbutton" href="">Elérhetőség</a></li>
                 </ul>
@@ -172,32 +172,15 @@
     </div>
     <div class="container-fluid">
         <div class="row" id="info">
-            <div class="col">
-                <p>
-                  <strong id="elerhetoseg">Elérhetőségeink</strong>
-
-                  <div id="alja"><p>Boltunk:1102 Budapest, Liget u. 41. </p>
+            <div id="elerhetoseg"class="col-md-6">
+                  <p><strong id="elerhetoseg">Elérhetőségeink</strong></p>
+                  <p>Boltunk:1101 Budapest,Hős u. 12.</p>
                   <p><i>Ügyfélszolgálat</i></p>
                   <p>Telefon: +3617196581</p>
-                  <p>Email: help@safecenter.com</p></div>
-
-                </p>
+                  <p>Email: help@safecenter.com</p>
             </div>
+            <div id="map" class="mapouter col-md-6"><div class="gmap_canvas"><iframe width="260" height="260" id="gmap_canvas" src="https://maps.google.com/maps?q=Budapest%20h%C5%91s%20utca%2012&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:260px;width:260px;}</style><a href="https://www.embedgooglemap.net">google map link for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:260px;width:260px;}</style></div></div>
         </div>
     </div>
-</script>
-
-<div id="googleMap" style="width:50%;height:200px;"></div>
-<script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(47.489391, 19.135048),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 </body>
 </html>
