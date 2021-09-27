@@ -125,8 +125,13 @@ body>div>div>div>ul>li{
 #fiokreg{
     text-align: center;
 }
+#reggomb{
+  text-decoration: none;
+}
 #logo1{
-    size: 40%;
+    background-image: url("img/logo.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
 }
 *, *:before, *:after {
     box-sizing: border-box;
