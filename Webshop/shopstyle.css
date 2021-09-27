@@ -25,6 +25,9 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+#kártya:hover{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
 img{
     margin: auto;
     height: 85%;
@@ -125,8 +128,13 @@ body>div>div>div>ul>li{
 #fiokreg{
     text-align: center;
 }
+#reggomb{
+  text-decoration: none;
+}
 #logo1{
-    size: 40%;
+    background-image: url("img/logo.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
 }
 *, *:before, *:after {
     box-sizing: border-box;
@@ -236,3 +244,18 @@ body>div>div>div>ul>li{
       transform: translateX(0);
     }
   }
+#elerhetoseg{
+    text-decoration: underline;
+}
+#alja{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    
+}
+#map{
+        margin: auto;
+        size: 50%;
+}
+#elerhetoseg{
+    margin: auto;
+}
