@@ -1,26 +1,29 @@
 #hotbar{
     padding: 10px;
-    background-color: #c13434;
+    background-color: #ac3534;
     color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 #info{
-    background-color: #c13434;
+    background-color: #ac3534;
     padding: 30px;
     text-align: center;
 }
 #cards{
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: darkgrey;
+    background-color: #cfccc9;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 10px 5px 12px rgba(0, 0, 0, 0.139);
 }
 #szervek{
     padding: 10px;
+    
 }
 #kártya{
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 img{
     margin: auto;
@@ -35,13 +38,17 @@ body{
     background-attachment: stretch;
 }
 #login{
-    text-align: right;
+    text-align: center;
     font-size: 140%;
     padding-top: 15px;
+    border: 3px solid white;
+    border-radius: 30px;
+    Box-shadow: 10 5px 5px rgba(0, 0, 0, 0.2);
 }
 #login>a{
-    color: #808060;
+    color: #dedede;
     padding-top: 10px;
+    
 }
 a:hover{
     text-decoration: none;
@@ -55,15 +62,15 @@ body>div>div>div>ul>li{
     padding-top: 15px;
 }
 .hbutton{
-    color: #808060;
+    color: #dedede;
     text-transform: capitalize;
     font-family: 'Courier New';
     font-weight: bolder;
     font-size: 150%;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+    text-shadow:  10px 2px 2px rgba(167, 100, 100, 0.2);
 }
 .hbutton:hover{
-    color: #808080;
+    color: #aaa2a2;
     text-decoration: none;
 }
 #loginpanel{
@@ -72,13 +79,15 @@ body>div>div>div>ul>li{
     margin-bottom: 100px;
     width: 350px;
     height: 370px;
-    background-color: darkgrey;
+    background-color: #aaa2a2;
     border-radius: 10px;
     padding: 10px;
     padding-top: 40px;
     font-size: 120%;
     font-family: 'Courier New';
     font-weight: bolder;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+
 }
 #regpanel{
     margin: auto;
@@ -92,12 +101,13 @@ body>div>div>div>ul>li{
     font-size: 120%;
     font-family: 'Courier New';
     font-weight: bolder;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .textbox{
     width: 330px;
     margin-bottom: 5px;
     border-radius: 5px;
-    box-shadow: 2px 2px rgba(58, 43, 43, 0.4);
+    box-shadow: 4px 4px 8px rgba(58, 43, 43, 0.4);
 }
 #rlbutton{
     margin-top: 20px;
@@ -106,10 +116,11 @@ body>div>div>div>ul>li{
     font-variant: small-caps;
     font-weight: bold;
     border-radius: 5px;
-    background-color: lightskyblue;
+    background-color: rgba(237, 94, 94, 0.653);
+    box-shadow: 2px 2px 8px rgba(58, 43, 43, 0.4);
 }
 #rlbutton:hover{
-    background-color: rgb(76, 126, 190);
+    background-color: rgb(190, 76, 76);
 }
 #fiokreg{
     text-align: center;
