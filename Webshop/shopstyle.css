@@ -244,3 +244,14 @@ body>div>div>div>ul>li{
       transform: translateX(0);
     }
   }
+#elerhetoseg{
+    text-decoration: underline;
+}
+#alja{
+    color: cyan;
+    border-radius: 5px;
+    
+}
+#googleMap{
+        margin: auto;
+}

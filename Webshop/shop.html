@@ -174,11 +174,32 @@
         <div class="row" id="info">
             <div class="col">
                 <p>
-                    Info az oldalról/copyright cuccok stb...
+                  <strong id="elerhetoseg">Elérhetőségeink</strong>
+
+                  <div id="alja"><p>Boltunk:1102 Budapest, Liget u. 41. </p>
+                  <p><i>Ügyfélszolgálat</i></p>
+                  <p>Telefon: +3617196581</p>
+                  <p>Email: help@safecenter.com</p></div>
+
                 </p>
             </div>
         </div>
     </div>
 </script>
+
+<div id="googleMap" style="width:50%;height:200px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(47.489391, 19.135048),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
 </body>
 </html>
