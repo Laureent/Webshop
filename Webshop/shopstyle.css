@@ -160,3 +160,7 @@ body>div>div>div>ul>li{
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
   font-weight: bold;
 }
+#szerv{
+    height: 100px;
+    width: 100px;
+}
